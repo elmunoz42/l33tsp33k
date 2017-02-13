@@ -19,8 +19,11 @@ A webpage that takes a phrase and translates it into "leet speak".
 
 |Behavior|Input|Output|
 |--------|-----|------|
-| Enter one word | "beer" | "b33r" |
-
+| Enter one word with an e | "beer" | "b33r" |
+| Enter a word with an o | "before" | "b3f0r3" |
+| Enter a word with a capital I | "Indigo" | "1ndigo" |
+| Enter a word with an S not as first letter | "toss" | "tozz" |
+| Enter a phrase with all of the above | "I like beer before tosses" | "1 lik3 b33r b3f0r3 t0zz3z" |
 
 ## Known Bugs
 
